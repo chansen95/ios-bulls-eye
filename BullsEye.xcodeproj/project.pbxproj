@@ -12,6 +12,9 @@
 		AA906BEE1FE8A10600C32058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA906BEC1FE8A10600C32058 /* Main.storyboard */; };
 		AA906BF01FE8A10600C32058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA906BEF1FE8A10600C32058 /* Assets.xcassets */; };
 		AA906BF31FE8A10600C32058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA906BF11FE8A10600C32058 /* LaunchScreen.storyboard */; };
+		AAAFFB6A200954C10006C29D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFFB69200954C10006C29D /* AboutViewController.swift */; };
+		AAAFFB6C2009579A0006C29D /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFFB6B2009579A0006C29D /* AboutAuthorViewController.swift */; };
+		AAAFFB6E200969220006C29D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = AAAFFB6D200969220006C29D /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AA906BEF1FE8A10600C32058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA906BF21FE8A10600C32058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA906BF41FE8A10600C32058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAFFB69200954C10006C29D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		AAAFFB6B2009579A0006C29D /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		AAAFFB6D200969220006C29D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		AA906BE71FE8A10600C32058 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				AAAFFB6D200969220006C29D /* BullsEye.html */,
 				AA906BE81FE8A10600C32058 /* AppDelegate.swift */,
 				AA906BEA1FE8A10600C32058 /* ViewController.swift */,
 				AA906BEC1FE8A10600C32058 /* Main.storyboard */,
+				AAAFFB6B2009579A0006C29D /* AboutAuthorViewController.swift */,
+				AAAFFB69200954C10006C29D /* AboutViewController.swift */,
 				AA906BEF1FE8A10600C32058 /* Assets.xcassets */,
 				AA906BF11FE8A10600C32058 /* LaunchScreen.storyboard */,
 				AA906BF41FE8A10600C32058 /* Info.plist */,
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA906BF31FE8A10600C32058 /* LaunchScreen.storyboard in Resources */,
+				AAAFFB6E200969220006C29D /* BullsEye.html in Resources */,
 				AA906BF01FE8A10600C32058 /* Assets.xcassets in Resources */,
 				AA906BEE1FE8A10600C32058 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAFFB6A200954C10006C29D /* AboutViewController.swift in Sources */,
 				AA906BEB1FE8A10600C32058 /* ViewController.swift in Sources */,
 				AA906BE91FE8A10600C32058 /* AppDelegate.swift in Sources */,
+				AAAFFB6C2009579A0006C29D /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NTUH6ZKQD;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = preemt.BullsEye;
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NTUH6ZKQD;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = preemt.BullsEye;
